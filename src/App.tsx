@@ -4,8 +4,10 @@ import {
   Checkbox,
   CssBaseline,
   FormControlLabel,
+  Link,
   Stack,
   TextField,
+  Typography,
 } from "@mui/material";
 
 function App() {
@@ -54,7 +56,18 @@ function App() {
             <FormControlLabel control={<Checkbox />} label="Remember me" />
           </div>
           <div>
-            <Button variant="contained">Submit</Button>
+            <Button type="submit" variant="contained">
+              Sign in
+            </Button>
+          </div>
+          <div>
+            <Typography component="div" variant="body2">
+              <span>
+                <Link href="#" variant="body2">
+                  Sign up
+                </Link>
+              </span>
+            </Typography>
           </div>
         </Stack>
       </Box>
