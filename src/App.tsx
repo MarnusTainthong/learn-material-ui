@@ -1,9 +1,10 @@
-import { Button } from "@mui/material";
+import { Button, CssBaseline } from "@mui/material";
 
 function App() {
   return (
     <>
-      <Button variant="contained">Hello world</Button>;
+      <CssBaseline />
+      <Button variant="contained">Hello world</Button>
     </>
   );
 }
