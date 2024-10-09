@@ -1,4 +1,12 @@
-import { Box, Button, CssBaseline, Stack, TextField } from "@mui/material";
+import {
+  Box,
+  Button,
+  Checkbox,
+  CssBaseline,
+  FormControlLabel,
+  Stack,
+  TextField,
+} from "@mui/material";
 
 function App() {
   return (
@@ -43,7 +51,10 @@ function App() {
             />
           </div>
           <div>
-            <Button variant="contained">Hello world</Button>
+            <FormControlLabel control={<Checkbox />} label="Remember me" />
+          </div>
+          <div>
+            <Button variant="contained">Submit</Button>
           </div>
         </Stack>
       </Box>
