@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <CssBaseline />
+
       <Box
         sx={{
           padding: "2rem",
@@ -28,6 +29,7 @@ function App() {
         }}
       >
         <Stack spacing={2}>
+          <Typography variant="h1" sx={{ fontSize: '2rem', fontWeight: 500 }}>Sign in</Typography>
           <div>
             <TextField
               id="emailInput"
